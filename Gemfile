@@ -32,6 +32,12 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+# Download boostrap files in the app
+gem 'bootstrap-sass', '~> 3.2.0'
+
+#Bootstrap gem - autoprefixer
+gem 'autoprefixer-rails'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 

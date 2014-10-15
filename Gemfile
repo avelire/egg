@@ -35,6 +35,9 @@ end
 # Download boostrap files in the app
 gem 'bootstrap-sass', '~> 3.2.0'
 
+# Adding SimpleForm - code for pop-up form
+gem 'simple_form'
+
 #Bootstrap gem - autoprefixer
 gem 'autoprefixer-rails'
 

@@ -14,10 +14,6 @@ class QuotesController < ApplicationController
 	def about
 	end
 
-	def show
-		@quote = Quote.find(params[:id])
-	end
-
 	private
 
 	def quote_params

@@ -41,6 +41,9 @@ gem 'simple_form'
 #Bootstrap gem - autoprefixer
 gem 'autoprefixer-rails'
 
+# For creating bogus test data to aid in writing tests
+gem "factory_girl_rails", "~> 4.0"
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
